@@ -8,6 +8,5 @@ public class DylanStoreApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DylanStoreApplication.class, args);
-	}
-
+	} 
 }

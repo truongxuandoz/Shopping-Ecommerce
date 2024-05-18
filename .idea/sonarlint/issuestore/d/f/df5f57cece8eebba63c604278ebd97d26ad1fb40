@@ -1,4 +1,9 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÖØ´ûÿÿÿÿ8Êš’Öø1J$f8e961cd-ab86-4a38-908f-f6023916de66
-…
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8²ì´Öø1J$5a2d6995-4882-4cb3-8de8-6a6641b4c006
+]
+java:S1220""Move this file to a named package.8Ûö÷Úø1J$daf0f3cb-9250-4f0b-af0e-9f9b2d7bca6e
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(Â¬ã¨ÿÿÿÿÿ8Şö÷Úø1J$bc19a6eb-370b-4fd1-9fbb-a33bca0b5d81
+}	java:S125"<This block of commented-out lines of code should be removed.(ûŠ†8ßö÷Úø1J$98768e3e-aae9-4f0e-a0a2-02bad1536406
+~	java:S125"<This block of commented-out lines of code should be removed.(Ó”¤í8ßö÷Úø1J$2c923a2f-1a4d-4259-a1ea-c5c722b34ad7
+~	java:S125"<This block of commented-out lines of code should be removed.(ÒÒˆÍ8àö÷Úø1J$c54f66aa-5bf7-4c45-9fa6-968f1f6f597f
+}	java:S125"<This block of commented-out lines of code should be removed.(â•«m8àö÷Úø1J$1505551f-44c9-4c50-a331-543599b137c9
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8áö÷Úø1J$3dbf2c10-8578-4fe1-a87b-2e4a4acc79d7

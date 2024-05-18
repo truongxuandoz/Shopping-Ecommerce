@@ -43,3 +43,13 @@ KDylan-Store/src/main/java/com/shoppingapp/DylanStore/mapper/UserMapper.java,f\
 SDylan-Store/src/main/java/com/shoppingapp/DylanStore/controller/AuthController.java,9\0\9056dc80f87c7954cbc456cf61b91c1422258bca
 
 ODylan-Store/src/main/java/com/shoppingapp/DylanStore/config/SecurityConfig.java,d\f\df5f57cece8eebba63c604278ebd97d26ad1fb40
+Ö
+UDylan-Store/src/main/java/com/shoppingapp/DylanStore/controller/WebAppController.java,0\6\060e85fc0b4dba771e3a930eac739dd736643797
+w
+G.idea/sonarlint/issuestore/0/6/060e85fc0b4dba771e3a930eac739dd736643797,b\5\b571d4337936a4a6ebda17ef494239cf7fdae87d
+Å
+Q.idea/sonarlint/securityhotspotstore/0/6/060e85fc0b4dba771e3a930eac739dd736643797,c\e\ce1fb792c792d15ff0e96c318cdab5687cefd314
+E
+.vscode/settings.json,8\9\89aa447020cdcb580cea0495694d46a55941edbe
+C
+.vscode/launch.json,f\1\f14cb12fa7462cdba1e6e6e4b499bce722fe22ba

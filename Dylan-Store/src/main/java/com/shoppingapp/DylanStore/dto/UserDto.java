@@ -12,7 +12,7 @@ import java.sql.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserDto {
-    private int userId;
+    private Long userId;
     private String fullName;
     private String address;
     private String phone;
