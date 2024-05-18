@@ -13,11 +13,12 @@ import java.sql.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "Employees")
-public class Employee {
+@Table(name = "User")
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int employeeId;
+    @Column(name = "userId")
+    private Long userId;
 
     @Column(name = "FullName", nullable = false, length = 100)
     private String fullName;
@@ -30,6 +31,8 @@ public class Employee {
 
     @Column(name = "Email", nullable = false, length = 100)
     private String email;
+    @Column(name = "Password")
+    private String password;
 
     @Column(name = "Position", nullable = false, length = 100)
     private String position;
