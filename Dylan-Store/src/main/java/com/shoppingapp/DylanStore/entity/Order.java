@@ -13,12 +13,12 @@ import java.sql.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "Order")
+@Table(name = "Orders")
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "OrderID")
-    private int OrderID;
+    private int orderID;
 
     @ManyToOne
     @JoinColumn(name = "userID")

@@ -10,6 +10,7 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.annotation.Rollback;
 
 import java.util.Optional;
@@ -24,19 +25,30 @@ class DylanStoreApplicationTests {
 	@Autowired
 	private TestEntityManager entityManager;
 
-//	w
+// //	w
+// 	@Test
+// 	public void testFindUserByEmail_ExistingEmail() {
+// 		// Create a user with a known email address in a setup method (not shown here)
+// 		String email = "truong1411@gmail.com";
+// 		Optional<User> user = userRepository.findByEmail(email);
+// 		Assertions.assertThat(user).isPresent();
+// 		Assertions.assertThat(user.get().getEmail()).isEqualTo(email);
+// 	}
+// 	@Test
+// 	public void testFindUserByEmail(){
+// 		String email = "nonexistent_user@example.com"; // Change to a non-existent email
+// 		Optional<User> user = userRepository.findByEmail(email);
+// 		Assertions.assertThat(user).isNull();
+// 	}
+
+	@Autowired
+	private PasswordEncoder passwordEncoder;
+
 	@Test
-	public void testFindUserByEmail_ExistingEmail() {
-		// Create a user with a known email address in a setup method (not shown here)
-		String email = "truong1411@gmail.com";
-		Optional<User> user = userRepository.findByEmail(email);
-		Assertions.assertThat(user).isPresent();
-		Assertions.assertThat(user.get().getEmail()).isEqualTo(email);
-	}
-	@Test
-	public void testFindUserByEmail(){
-		String email = "nonexistent_user@example.com"; // Change to a non-existent email
-		Optional<User> user = userRepository.findByEmail(email);
-		Assertions.assertThat(user).isNull();
+	public void testUserDetailsService(String email, String rawPassword) {
+		User user = userRepository.findByEmail(email);
+		if (user != null) {
+			System.out.println("Password matches: " + passwordEncoder.matches(rawPassword, user.getPassword()));
+		}
 	}
 }

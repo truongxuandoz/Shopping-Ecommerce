@@ -7,6 +7,8 @@ import lombok.Setter;
 
 import java.sql.Date;
 
+import com.shoppingapp.DylanStore.entity.Role;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -19,7 +21,7 @@ public class UserDto {
     private String email;
     private String password;
     private String position;
-    private boolean isAdmin;
+    private Role role;
     private Date joinDate;
 
 

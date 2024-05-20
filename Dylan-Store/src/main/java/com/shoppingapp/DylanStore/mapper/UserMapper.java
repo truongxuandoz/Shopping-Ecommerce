@@ -13,7 +13,7 @@ public class UserMapper {
                 user.getEmail(),
                 user.getPassword(),
                 user.getPosition(),
-                user.isAdmin(),
+                user.getRole(),
                 user.getJoinDate()
         );
     }
@@ -26,7 +26,7 @@ public class UserMapper {
                 userDto.getPhone(),
                 userDto.getPassword(),
                 userDto.getPosition(),
-                userDto.isAdmin(),
+                userDto.getRole(),
                 userDto.getJoinDate()
         );
     }

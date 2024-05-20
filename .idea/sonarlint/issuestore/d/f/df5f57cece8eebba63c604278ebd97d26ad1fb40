@@ -1,9 +1,6 @@
 
-]
-java:S1220""Move this file to a named package.8ÛצקÚר1J$daf0f3cb-9250-4f0b-af0e-9f9b2d7bca6e
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(ֲ¬ד¨ÿÿÿÿÿ8ÞצקÚר1J$bc19a6eb-370b-4fd1-9fbb-a33bca0b5d81
-}	java:S125"<This block of commented-out lines of code should be removed.(û†8ßצקÚר1J$98768e3e-aae9-4f0e-a0a2-02bad1536406
-~	java:S125"<This block of commented-out lines of code should be removed.(׃”₪ם8ßצקÚר1J$2c923a2f-1a4d-4259-a1ea-c5c722b34ad7
-~	java:S125"<This block of commented-out lines of code should be removed.(ׂׂˆֽ8אצקÚר1J$c54f66aa-5bf7-4c45-9fa6-968f1f6f597f
-}	java:S125"<This block of commented-out lines of code should be removed.(ג•«m8אצקÚר1J$1505551f-44c9-4c50-a331-543599b137c9
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(י״»Úûÿÿÿÿ8בצקÚר1J$3dbf2c10-8578-4fe1-a87b-2e4a4acc79d7
+	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(־…ü†‎ÿÿÿÿ8ֵַּ¯ש1J$1870d2b2-d516-4b04-89a1-397332f9bfe2
+´
+java:S1130>"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(־…ü†‎ÿÿÿÿ8בַּ¯ש1J$3f1cc0d9-e0cc-409e-b9bc-9cc5d2c1e72c
+¾
+java:S1128	"vRemove this unused import 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'.(ֶ­¹¬רÿÿÿÿ8„י®ש1J$821e4133-2812-4bdd-8caa-89785f02fcad

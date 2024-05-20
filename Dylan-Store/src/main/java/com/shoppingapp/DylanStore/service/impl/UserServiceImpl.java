@@ -7,10 +7,8 @@ import com.shoppingapp.DylanStore.repository.UserRepository;
 import com.shoppingapp.DylanStore.service.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
 
 @Service
 @AllArgsConstructor
@@ -18,8 +16,7 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private UserRepository userRepository;
 
-    // @Autowired
-    // private PasswordEncoder passwordEncoder;
+
     @Override
     public UserDto createUser(UserDto userDto) {
         return null;
@@ -27,12 +24,10 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserDto authenticate(String email, String password) {
-        Optional<User> userOptional = userRepository.findByEmail(email);
-        if (userOptional.isPresent()) {
-            User user = userOptional.get();
+        User user = userRepository.findByEmail(email);
             if (user != null && user.getPassword().equals(password)){
                 return UserMapper.mapToUserDto(user);
-            }
+
         }
         return null;
     }

@@ -1,2 +1,5 @@
-package com.shoppingapp.DylanStore.entity;public enum Role {
+package com.shoppingapp.DylanStore.entity;
+
+public enum Role {
+    ADMIN,USER
 }

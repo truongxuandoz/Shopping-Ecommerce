@@ -37,8 +37,8 @@ public class User {
     @Column(name = "Position", nullable = false, length = 100)
     private String position;
 
-    @Column(name = "IsAdmin", nullable = false)
-    private boolean isAdmin;
+    @Enumerated(EnumType.STRING)
+    private Role role;
 
     @Column(name = "JoinDate", nullable = false)
     private Date joinDate;
