@@ -6,4 +6,6 @@ import com.shoppingapp.DylanStore.entity.User;
 public interface UserService {
     UserDto createUser(UserDto userDto);
     UserDto authenticate(String email, String password);
+    UserDto showUserByEmail(String email);
+
 }

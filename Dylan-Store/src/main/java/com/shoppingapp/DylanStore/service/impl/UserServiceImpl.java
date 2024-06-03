@@ -31,4 +31,12 @@ public class UserServiceImpl implements UserService {
         }
         return null;
     }
+
+    @Override
+    public UserDto showUserByEmail(String email) {
+        User user = userRepository.findByEmail(email);
+        return UserMapper.mapToUserDto(user);
+    }
+
+    
 }

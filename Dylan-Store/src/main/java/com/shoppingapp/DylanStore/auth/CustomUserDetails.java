@@ -11,9 +11,10 @@ import java.util.List;
 
 public class CustomUserDetails implements UserDetails {
 
-    private final transient User user;
+    private User user;
 
     public CustomUserDetails(User user) {
+        super();
         this.user = user;
     }
 
@@ -53,4 +54,5 @@ public class CustomUserDetails implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+    
 }
